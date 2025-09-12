@@ -11,7 +11,8 @@ ExternalProject_Add(libplacebo
         xxhash
     GIT_REPOSITORY https://code.videolan.org/Stat_headcrabbed/libplacebo.git
     SOURCE_DIR ${SOURCE_LOCATION}
-    GIT_CLONE_FLAGS "--branch acm_detection --filter=tree:0"
+    GIT_CLONE_FLAGS "--filter=tree:0"
+    GIT_TAG origin/acm_detection
     GIT_SUBMODULES ""
     UPDATE_COMMAND ""
     CONFIGURE_COMMAND ""
