@@ -9,9 +9,10 @@ ExternalProject_Add(libplacebo
         glad
         fast_float
         xxhash
-    GIT_REPOSITORY https://github.com/haasn/libplacebo.git
+    GIT_REPOSITORY https://code.videolan.org/Stat_headcrabbed/libplacebo.git
     SOURCE_DIR ${SOURCE_LOCATION}
     GIT_CLONE_FLAGS "--filter=tree:0"
+    GIT_TAG origin/acm_detection
     GIT_SUBMODULES ""
     UPDATE_COMMAND ""
     CONFIGURE_COMMAND ""
